@@ -1,0 +1,76 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	font-size:medium;
+	padding: 0px;
+	background-color: #add8e6;
+	background-size: 100%
+	background-image: url('static/img/download-advanced-ticket-assignment.png');
+	background-repeat: no-repeat;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container1{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+	background-size: 100% 100%;
+}
+
+#ml-container {
+    width: 1280px;
+    height: 300px;
+    border: 1px, #000;
+    border-style: solid;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header{
+	border-bottom:#448AFF 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:30px;
+}
+
+.main-header{
+			text-align:center;
+			background-color: #add8e6;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+
+
+header h2{
+	text-align:center;
+	color:#fff;
+}
+
+.btn-info {background-color: #21f3de;
+	height:40px;
+	width:100px;} /* Blue */
+.btn-info:hover {background: #21f3de;}
+
+.resultss{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.prediction {
+    width: 1280px;
+    height: 300px;
+    border: 1px, #000;
+    border-style: solid;
+    margin: auto;
+    margin-top: 10px;
+    font: 28px "Marker Felt", "Zapfino", cursive;
+    background-color: Maroon;
+}
