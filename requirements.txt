@@ -1,8 +1,12 @@
 Flask==2.0.1
-h5py
+h5py==2.10.0
 pandas==1.2
 tensorflow==2.8.0
 numpy>=1.19
 keras>=2.4
 gunicorn==19.9.0
+itsdangerous>=2.0
+Jinja2>=3.0
+MarkupSafe>=2.0
+Werkzeug>=2.0
 
