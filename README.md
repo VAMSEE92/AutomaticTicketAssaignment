@@ -6,7 +6,7 @@ possible based on its severity. Whenever an incident is created, it reaches the 
 assigned to the respective teams to work on the incident. The Service Desk team will perform basic analysis on the
 user's requirement, identify the issue based on given descriptions and assign it to the respective teams.
 
-![incident Image](https://image-002.jpg)
+![incident Image](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-002.jpg)
 
 Below are the challenges of the manual assaignment of these incidents
 ##### -> More resource usage and expenses
@@ -24,7 +24,7 @@ groups using:
 
 ### Machine Learning Process
 
-![ML image](https://image-003.jpg)
+![ML image](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-003.jpg)
 ##### 
 ### Steps performed 
 1) Reading and Merging the dataset
@@ -45,7 +45,7 @@ For model building, the accuracy has been calculated both on traditional ML clas
 learning algorithm using LSTM. Machine Learning algorithms like Decision tree, Random Forest, Naïve Bayes,
 KNN and Logistic Regression have been compared.
 #### ML Model performances
-![ML performances](https://image-33.jpg) 
+![ML performances](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-033.png) 
 ##### 
 #### Conclusion
 ##### -> None of the models could reach the accuracy of 60 % in test even with hyper parameters.
@@ -66,36 +66,36 @@ the model still is overfit.
 3. With BERT, the maximum training accuracy achieved is 55 and test accuracy as 46%
 4. With Fasttext, the maximum training accuracy achieved is 91% and test accuracy as 66%
 ##### 
-![Pre-trained models](https://image-47.jpg)
+![Pre-trained models](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-047.png)
 ### Bidirectional LSTM Performance with Top 5 Groups
 
-![LSTMBi Model](https://image-48.jpg)
-![LSTMBi acc](https://image-49.jpg)
+![LSTMBi Model](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-048.png)
+![LSTMBi acc](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-049.png)
 #### Graph
-![LSTMBi graph](https://image-50.jpg)
+![LSTMBi graph](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-050.png)
 #### classification Repost
-![LSTMBi cr](https://image-51.jpg)
+![LSTMBi cr](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-051.png)
 #### Prediction
 For Prediction , randomly few texts have been picked from each group and the same have been tested
 against the model prediction
 ##### 
-![LSTMBi cr](https://image-52.jpg)
+![LSTMBi cr](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-052.png)
 #### Conclusion
 1. From the classification report it can be seen that the group 9 is having least f1 score, and precision.
 Hence the model is predicting GRP 9 text wrongly as GRP_0
 2. The maximum accuracy that can be achieved 93% in training and 90 % in test with slight overfitting.
 ### ULMFit Performance
-![ulmfit](https://image-54.jpg)
+![ulmfit](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-054.png)
 #### Conclusion
 Just like BiLSTM model, the classification report of ULMFit states group 9 is having least f1 scor
 e, and precision. Hence the model is predicting GRP 9 text wrongly as GRP_0
 ### Fasttext Performance 
-![Fasttext](https://image-58.jpg)
+![Fasttext](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-058.png)
 #### Conclusion
 From the classification report it can be seen that the group 9 is having least f1 score, and precisi
 on. Hence the model is predicting GRP 9 text wrongly as GRP_0
 ### BERT Performance
-![BERT](https://image-61.jpg)
+![BERT](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-061.png)
 #### Conclusion
 1. From the above implementation of the BERT model we see that performance on top 5 groups of
 the data-set is close to 96.5% in training and 91.5% in validation & test.
@@ -108,7 +108,7 @@ parameters. We can also try “BERT -large-uncased" pre-trained model and see th
 performance. Due to lack of hardware that would be necessary to run “BERT -large-uncased"
 pre-trained model, we did try it.
 #### Final Performance Report
-![finalePer](https://image-63.jpg)
+![finalePer](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-063.png)
 ### Deployment
 1. There are different ways of deploying the model
 #####   -> Using Flask as web application
@@ -121,13 +121,13 @@ pre-trained model, we did try it.
 ##### -> Redirecting the API to the home page index.html
 ##### -> Redirecting the API to predict the result(Assignment group)
 6. Below is the folder structure that is used for deployment
-![folderStr](https://image-64.jpg)
+![folderStr](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-064.png)
 ##### 
 7. Web Page view of the bi-LSTM model index.html page
-![home Webpage](https://image-65.jpg)
+![home Webpage](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-065.png)
 ##### 
 8. Web Page view of the bi-LSTM model result page
-![home Webpage](https://image-66.jpg)
+![home Webpage](https://github.com/VAMSEE92/AutomaticTicketAssaignment/blob/main/Images/image-066.png)
 ##### 
 ### Limitations
 1. From the preprocessing, it is found that the data is highly imbalanced and contains non-English Text.
