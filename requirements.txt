@@ -5,7 +5,4 @@ tensorflow==2.8.0
 numpy>=1.19
 keras>=2.4
 gunicorn==19.9.0
-itsdangerous
-Jinja2
-MarkupSafe
-Werkzeug
+
