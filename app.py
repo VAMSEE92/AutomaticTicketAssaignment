@@ -2,8 +2,8 @@ from flask import Flask, render_template, url_for, request
 import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
-import h5py
-h5py.run_tests()
+# import h5py
+# h5py.run_tests()
 from keras.preprocessing.text import Tokenizer
 import tensorflow as tf
 
